@@ -1,5 +1,6 @@
 ﻿using Cronometro.Utilitario;
 using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 using System.Threading.Tasks;
 using System.Timers;
 
@@ -9,17 +10,13 @@ namespace Cronometro.Pages
     {
         protected string tiempoAtencion = "00:00:00";
         protected Timer timerAtencion;
-        protected Timer timerOperacion = new Timer();
+        protected Timer timerOperacion;
         protected XXCronometro cronometroAtencion = new XXCronometro();
-
-        private void TimerOnAtencion(object sender, ElapsedEventArgs e)
-        {
-            tiempoAtencion = cronometroAtencion.ShowTimer();
-            StateHasChanged();
-        }
+        [Inject] protected IJSRuntime JS { get; set; }
 
         protected async Task Iniciar() 
         {
+            await JS.InvokeVoidAsync("console.log", "Iniciar");
             timerAtencion = new Timer();
             timerAtencion.Interval = 1000;
             timerAtencion.Elapsed += TimerOnAtencion;
@@ -33,6 +30,11 @@ namespace Cronometro.Pages
             cronometroAtencion.Inicializar();
         }
 
-        
+        private void TimerOnAtencion(object sender, ElapsedEventArgs e)
+        {
+            tiempoAtencion = cronometroAtencion.ShowTimer();
+            StateHasChanged();
+        }
+
     }
 }

@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\UKJt0G14nNPCPyrHTG2NlXsi4RzNIbAZWjScIDD34ng=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\lTPFqwwebl8wRUt95vnxfFWDccdoxbToLW0DIUaa9zE=.hash",
       "Source": "C:\\Aplicaciones\\BORRAR\\Cronometro\\Cronometro\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Cronometro.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Cronometro.dll.br"
     },
@@ -191,6 +191,11 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
+      "Source": "C:\\Aplicaciones\\BORRAR\\Cronometro\\Cronometro\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash",
       "Source": "C:\\Aplicaciones\\BORRAR\\Cronometro\\Cronometro\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
@@ -251,17 +256,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
-      "Source": "C:\\Aplicaciones\\BORRAR\\Cronometro\\Cronometro\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash",
       "Source": "C:\\Aplicaciones\\BORRAR\\Cronometro\\Cronometro\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\gG-7unOSmA_r3NaUYpfmW97AgQUaTe2KWA4yI36ssZU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\8ueyKew_dGcQH7NGD5e9gi2oGulTzhY0gNq9pwNZL04=.hash",
       "Source": "C:\\Aplicaciones\\BORRAR\\Cronometro\\Cronometro\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Cronometro.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Cronometro.pdb.br"
     },
@@ -286,7 +286,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4jB70hRTM-tustfk1lXeUJIJi_0YB5lMJ4bWFsH9hzI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\k3k71zwx8DwMFtKwwhEwrW3ADp2xMRoBvm05tB8AEqc=.hash",
       "Source": "C:\\Aplicaciones\\BORRAR\\Cronometro\\Cronometro\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
